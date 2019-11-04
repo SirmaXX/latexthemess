@@ -1,0 +1,3 @@
+\babel@toc {english}{}
+\contentsline {section}{Introduction}{}
+\contentsline {section}{The same thing}{}
