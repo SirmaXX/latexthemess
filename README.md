@@ -1,4 +1,7 @@
 # latexthemes
+### homework theme (it isnt mine but i liked )
+https://github.com/jdavis/latex-homework-template
+# notes theme
 * introduction page
 * contents
 * column numbers
