@@ -1,0 +1,104 @@
+\documentclass[a4paper, 15pt, oneside]{article}
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[utf8]{inputenc} %Türkçe karakterler
+\usepackage[english]{babel}
+\usepackage[svgnames]{xcolor} 
+\usepackage{amsmath,url,graphicx,tabularx,array,geometry,graphicx,titlesec}
+
+
+% çözüm
+\newcommand{\solution}{\textbf{\large Solution}}
+
+
+%  Ödev 
+%   - Başlık
+%   - Tarih
+%   - Yazar
+\newcommand{\hmwkTitle}{MULTİVARİTE NORMAL DAĞILIM }
+\newcommand{\hmwkDueDate}{12.11.2019}
+\newcommand{\hmwkAuthorName}{\textbf{Deniz Balcı}}
+
+
+
+%--\newcommand{\E}{\mathrm{E}}
+%--\newcommand{\Var}{\mathrm{Var}}
+%--\newcommand{\Cov}{\mathrm{Cov}}
+%--\newcommand{\Bias}{\mathrm{Bias}}
+
+%-- Sayfa başlığı
+\renewcommand{\title}[1]{\textbf{#1}\\}
+\renewcommand{\line}{\begin{tabularx}{\textwidth}{X>{\raggedleft}X}\hline\\\end{tabularx}\\[-0.5cm]}
+\newcommand{\leftright}[2]{\begin{tabularx}{\textwidth}{X>{\raggedleft}X}#1%
+& #2\\\end{tabularx}\\[-0.5cm]}
+
+
+\begin{document}
+  \pagenumbering{gobble}
+\begin{titlepage} % Suppresses headers and footers on the title page
+	
+	\centering % Centre everything on the title page
+	
+	
+	\rule{\textwidth}{1pt} % Thick horizontal rule
+	
+	\vspace{2pt}\vspace{-\baselineskip} % Whitespace between rules
+	
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{0.1\textheight} % Whitespace between the top rules and title
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\textcolor{Black}{ % Red font color
+		{\Huge \hmwkTitle}\\[0.5\baselineskip] % Title line 1
+		{\Huge VE }\\[0.5\baselineskip] % Title line 2
+		{\Huge BİVARİTE NORMAL DAĞILIM}\\[0.5\baselineskip] % Title line 3
+	}
+	
+	\vspace{0.025\textheight} % Whitespace between the title and short horizontal rule
+	
+	\rule{0.3\textwidth}{0.4pt} % Short horizontal rule under the title
+	
+	\vspace{0.1\textheight} % Whitespace between the thin horizontal rule and the author name 
+	  
+	%------------------------------------------------
+	%	Author
+	%------------------------------------------------
+	
+	{\Huge \hmwkAuthorName} \\
+	 % Author name
+	 \vspace{0.025\textheight}
+	{\Large \hmwkDueDate}
+	\vfill % Whitespace between the author name and publisher
+	
+
+	%------------------------------------------------
+	%	Alt çizgi
+	%------------------------------------------------
+	
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{2pt}\vspace{-\baselineskip} % Whitespace between rules
+	
+	\rule{\textwidth}{1pt} % Thick horizontal rule
+	
+\end{titlepage}
+\pagebreak
+\newpage
+
+\tableofcontents
+\newpage
+\leftright{\hmwkDueDate}{\hmwkAuthorName} 
+\line
+
+
+
+
+\section{Section}
+
+
+
+\end{document}
