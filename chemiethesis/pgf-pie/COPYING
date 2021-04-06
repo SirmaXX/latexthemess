@@ -1,0 +1,11 @@
+This file is part of pgf-pie.
+
+Copyright 2011-2020 Yuan Xu
+
+pgf-pie is licensed under the terms of the The LaTeX Project Public License (LPPL) 1.3c, or
+alternatively under the terms of the General Public License (GPL) Version 2.
+
+The terms of each license can be found in the source repository:
+
+Apache License: ./LICENSE-LPPL1.3c.txt
+GPL2 License: ./LICENSE-GPL2.txt
